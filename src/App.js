@@ -21,7 +21,7 @@ function App() {
         toast.success(
           `Successfully fetched weather for ${data.name}, ${data.country}.`
         );
-        console.log(data);
+        // console.log(data);
         setWeather(data);
       });
     };

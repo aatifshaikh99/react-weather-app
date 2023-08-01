@@ -1,5 +1,4 @@
 import "./App.css";
-import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import TopButtons from "./components/TopButtons";
 import Inputs from "./components/Inputs";
 import TimeAndLocation from "./components/TimeAndLocation";
@@ -43,7 +42,7 @@ function App() {
 
   return (
     <div
-      className={`mx-auto max-w-screen-md my-32 py-5 px-32 bg-gradient-to-br h-fit shadow-lg ${formatBackground()}`}
+      className={`mx-auto md:w-fit max-w-screen-xl my-32 py-5 px-32 bg-gradient-to-br h-fit shadow-lg ${formatBackground()}`}
     >
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />

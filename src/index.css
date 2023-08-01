@@ -7,9 +7,6 @@
 @layer base {
     html {
         font-family: 'Poppins', sans-serif;
-        background-image: url("../public/6119400.jpg");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
+        background-color: rgb(245, 241, 203);
     }
 }
